@@ -2,11 +2,13 @@ import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import avatar from "@/assets/image.jpeg";
 import { Starfield } from "./Starfield";
 import { FaWhatsapp } from "react-icons/fa";
+import { Moon } from "./Moon";
 
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
       <Starfield density={140} />
+      <Moon />
 
       <div className="relative mx-auto flex max-w-4xl flex-col items-center px-6 pb-24 pt-24 text-center md:pb-32 md:pt-32">
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
