@@ -9,4 +9,6 @@ export default defineConfig({
     tsconfigPaths(),
     tailwindcss(),
   ],
+    base: "/portfolio/",
+
 });
