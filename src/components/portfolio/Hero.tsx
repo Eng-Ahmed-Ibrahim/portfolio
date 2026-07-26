@@ -43,7 +43,8 @@ export function Hero() {
             View work
           </a>
           <a
-            href="/Backend_engineer.pdf"
+            href={`${import.meta.env.BASE_URL}Backend_engineer.pdf`}
+
             target="_blank"
             rel="noreferrer"
             download
@@ -71,15 +72,15 @@ export function Hero() {
           <SocialIcon href="mailto:eng.ahmed0302@gmail.com" label="Email">
             <Mail className="h-4 w-4" />
           </SocialIcon>
-              <SocialIcon href="https://github.com/Eng-Ahmed-Ibrahim" label="GitHub">
-                <Github className="h-4 w-4" />
-              </SocialIcon>
-              <SocialIcon href="https://www.linkedin.com/in/ahmed-ebrahim-851b6b226/" label="LinkedIn">
-                <Linkedin className="h-4 w-4" />
-              </SocialIcon>
-              <SocialIcon href="https://wa.me/201123451493" label="WhatsApp">
-                <FaWhatsapp className="h-4 w-4" />
-              </SocialIcon>
+          <SocialIcon href="https://github.com/Eng-Ahmed-Ibrahim" label="GitHub">
+            <Github className="h-4 w-4" />
+          </SocialIcon>
+          <SocialIcon href="https://www.linkedin.com/in/ahmed-ebrahim-851b6b226/" label="LinkedIn">
+            <Linkedin className="h-4 w-4" />
+          </SocialIcon>
+          <SocialIcon href="https://wa.me/201123451493" label="WhatsApp">
+            <FaWhatsapp className="h-4 w-4" />
+          </SocialIcon>
         </div>
       </div>
     </section>
